@@ -1,0 +1,244 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "pc gamer asus I9-14900k ",
+      "price": 57900,
+      "category": "electronics",
+      "image": "https://inmedia.ma/wp-content/uploads/2024/12/pc-gamer-asus.webp",
+      "bestSeller": false
+    },
+    {
+      "id": 2,
+      "name": "Womens Necklaces",
+      "price": 899,
+      "category": "jewelery",
+      "image": "https://img4.dhresource.com/webp/m/0x0/f3/albu/ys/y/20/83e2c901-1354-4f31-a79b-93550f6ad167.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 3,
+      "name": " nike jacket for mens",
+      "price": 999,
+      "category": "fashion",
+      "image": "https://www.nike.sa/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dwbc43ef2e/nk/b2e/a/e/2/b/2/b2eae2b2_6b13_4495_8687_655b11d9821b.jpg?sw=1040&sh=1040&sm=fit",
+      "bestSeller": false
+    },
+    {
+      "id": 4,
+      "name": "RINGS (18 KARAT GOLD)",
+      "price": 10000000,
+      "category": "jewelery",
+      "image": "https://ariluxejewelry.com/wp-content/uploads/2024/09/9.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 5,
+      "name": "Razer Blackshark V2 X",
+      "price": 999,
+      "category": "electronics",
+      "image": "https://zonetech.ma/wp-content/uploads/2024/04/razer-blackshark-v2-x-vert-3.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 6,
+      "name": "rose gold Hexagon ring",
+      "price": 5555,
+      "category": "jewelery",
+      "image": "https://mollyjewelryus.com/wp-content/uploads/2024/09/Rose-Gold-Hexagon-Cut-Moss-Agate-Engagement-Ring-Set-Emerald-Wedding-Band-Nature-Inspired-Bridal-Set-1.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 7,
+      "name": "shoes nike air",
+      "price": 250,
+      "category": "fashion",
+      "image": "https://bonkax.com/wp-content/uploads/2024/12/153CD536-00C2-40D7-AD60-49E7A5AF0066.jpg",
+      "bestSeller": true
+    },
+    {
+      "id": 8,
+      "name": "Setup Gaming",
+      "price": 99999,
+      "category": "electronics",
+      "image": "https://zonetech.ma/wp-content/uploads/2025/03/setup-gaming-maroc.webp",
+      "bestSeller": true
+    },
+    {
+      "id": 9,
+      "name": "harverd hoodie",
+      "price": 499,
+      "category": "fashion",
+      "image": "https://imagescdn.simons.ca/images/6652-5117-61-A1_2/harvard-sweatshirt.jpg?__=3",
+      "bestSeller": false
+    },
+    {
+      "id": 10,
+      "name": "gold ring",
+      "price": 1999,
+      "category": "jewelery",
+      "image": "https://ringsbylux.com/cdn/shop/products/woodrings_wooden_ring_wood_ring_tungsten_wood_ring_9_of_13-sw_1600x.jpg?v=1706548978",
+      "bestSeller": true
+    },
+    {
+      "id": 11,
+      "name": "xbox serie X",
+      "price": 5499,
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/61G2eR2NQ5L._AC_SL1500_.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 12,
+      "name": "monto zara women",
+      "price": 299,
+      "category": "fashion",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4YfXgoKz_PZ_0v4Q-hQkmOcuZ4RjvLxoRXA&s",
+      "bestSeller": false
+    },
+    {
+      "id": 13,
+      "name": "Egyptian Jewelry",
+      "price": 9999,
+      "category": "jewelery",
+      "image": "https://arce.org/wp-content/uploads/files-imported/2019-02/21X_CAT115R1.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 14,
+      "name": "gaming mice razer",
+      "price": 599,
+      "category": "electronics",
+      "image": "https://www.gamingislife.sg/cdn/shop/files/RAZERBASILISKV335K.jpg?v=1728026669&width=640",
+      "bestSeller": false
+    },
+    {
+      "id": 15,
+      "name": "chair gaming",
+      "price": 1399,
+      "category": "electronics",
+      "image": "https://multitech.ma/cdn/shop/files/skillchairs-strike-rgb-series_600x600.jpg?v=1749053956",
+      "bestSeller": false
+    },
+    {
+      "id": 16,
+      "name": "the diddler hoodie",
+      "price": 699,
+      "category": "fashion",
+      "image": "https://i.etsystatic.com/29260155/r/il/584c60/5934642743/il_fullxfull.5934642743_lgvf.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 17,
+      "name": " iphone 17 pro max",
+      "price": 19500,
+      "category": "electronics",
+      "image": "https://ezone.ma/wp-content/uploads/2025/09/Ipjone-17-pro-ezone-prix-maroc.webp",
+      "bestSeller": false
+    },
+    {
+      "id": 18,
+      "name": "Vexiangni Monto men",
+      "price": 299,
+      "category": "fashion",
+      "image": "https://m.media-amazon.com/images/I/71Zysq+zleL._AC_UY1000_.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 19,
+      "name": "Hustle Black Oversized Back Graphic Printed Hoodie",
+      "price": 249,
+      "category": "fashion",
+      "image": "https://veirdo.in/cdn/shop/files/Artboard15_41.jpg?v=1762239782&width=533",
+      "bestSeller": false
+    },
+    {
+      "id": 20,
+      "name": "Jewelry Retouching",
+      "price": 1199,
+      "category": "jewelery",
+      "image": "https://luxjewelryretouch.com/wp-content/uploads/2023/12/Earrings-natural-jewelry-retouching-and-editing14.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 21,
+      "name": "ps5",
+      "price": 5999,
+      "category": "electronics",
+      "image": "https://multitech.ma/cdn/shop/files/3_800x_89616a70-a9ac-4739-8bca-64d64292b75e_700x700.webp?v=1748434524",
+      "bestSeller": false
+    },
+    {
+      "id": 22,
+      "name": "hooke hoodie 2012",
+      "price": 111,
+      "category": "fashion",
+      "image": "https://hooke.com/cdn/shop/files/hooke-fw25-women-hoodie-mobile.webp?v=1754423962&width=1300",
+      "bestSeller": false
+    },
+    {
+      "id": 23,
+      "name": "Gold Jewelry Luxe Jewelry Luxe",
+      "price": 1999,
+      "category": "jewelery",
+      "image": "https://churiwala.in/wp-content/uploads/2025/02/IMG_20250214_194105-scaled-e1739714993560.webp",
+      "bestSeller": false
+    },
+    {
+      "id": 24,
+      "name": "samsung galaxy S25 ultra",
+      "price": 18999,
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/517FHSHkZ8L._AC_SL1070_.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 25,
+      "name": "POEDAGAR 719 Ladies Watches",
+      "price": 7199,
+      "category": "jewelery",
+      "image": "https://poedagar.store/wp-content/uploads/2023/02/a-3.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 26,
+      "name": "horse shirt",
+      "price": 199,
+      "category": "fashion",
+      "image": "https://www.rdklu.com/cdn/shop/files/1_fbb09abe-4ad9-453d-8698-ffa9a1196380.jpg?v=1747638449",
+      "bestSeller": false
+    },
+    {
+      "id": 27,
+      "name": "rolex",
+      "price": 19999,
+      "category": "jewelery",
+      "image": "https://cdn11.bigcommerce.com/s-gh1go5da/images/stencil/1280x1280/products/3582/25125/228238__27622.1718906161.jpg?c=2",
+      "bestSeller": false
+    },
+    {
+      "id": 28,
+      "name": "PU Louis Vuitton LV Sneaker",
+      "price": 250,
+      "category": "fashion",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2024/6/425432490/CC/LA/ED/211595689/whatsapp-image-2024-06-04-at-1-13-56-pm-500x500.jpeg",
+      "bestSeller": false
+    },
+    {
+      "id": 29,
+      "name": "Jewelry | Materials, Methods",
+      "price": 2999,
+      "category": "jewelery",
+      "image": "https://www.deonneleroux.co.za/wp-content/uploads/2024/11/How-to-take-care-of-your-Rose-Gold-Ring.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 30,
+      "name": "Razer Huntsman v3 Pro Mini",
+      "price": 799,
+      "category": "electronics",
+      "image": "https://www.ultrapc.ma/33928-large_default/razer-huntsman-v3-pro-mini.jpg",
+      "bestSeller": false
+    }
+  ]
+}

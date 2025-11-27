@@ -1,0 +1,224 @@
+/* ----------------------- */
+/*        RESET + BASE     */
+/* ----------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: #0d1117;
+  color: #fff;
+}
+
+/* ----------------------- */
+/*      BACKGROUND FX      */
+/* ----------------------- */
+.background {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+/* Parallax Layers */
+.parallax {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  will-change: transform, opacity;
+  transition: opacity 1s ease;
+}
+
+.layer-1  { z-index: 1; transform: scale(1.05); }
+.layer-2  { z-index: 2; mix-blend-mode: screen; transform: scale(1.15); }
+
+/* Sun Rays */
+.light-rays {
+  position: absolute;
+  inset: 0;
+  background: url("assist/rays.png") no-repeat center;
+  background-size: cover;
+  opacity: 0;
+  mix-blend-mode: screen;
+  animation: rotateRays 12s linear infinite;
+}
+@keyframes rotateRays {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Rain FX */
+.rain {
+  position: absolute;
+  inset: 0;
+  background-image: url("assist/rain-fx.png");
+  background-size: contain;
+  opacity: 0;
+  animation: rainMove 0.25s linear infinite;
+}
+@keyframes rainMove {
+  from { background-position: 0 0; }
+  to   { background-position: 0 200%; }
+}
+
+/* ----------------------- */
+/*        CONTAINER        */
+/* ----------------------- */
+.container {
+  max-width: 420px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 15px #000;
+}
+
+/* ----------------------- */
+/*          SEARCH         */
+/* ----------------------- */
+.search {
+  position: relative;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search input {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  border-radius: 14px;
+  border: none;
+  outline: none;
+  background: #ffffff1a;
+  color: white;
+  backdrop-filter: blur(5px);
+  transition: 0.2s;
+}
+.search input:focus {
+  background: #ffffff22;
+  box-shadow: 0 0 10px #4da6ff;
+}
+
+.search button {
+  padding: 0 1rem;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #4da6ff, #7d5bff);
+  color: white;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+.search button:hover {
+  opacity: 0.85;
+}
+
+/* Suggestions dropdown */
+#suggestions {
+  position: absolute;
+  top: 48px;
+  width: calc(100% - 60px);
+  background: #ffffffdd;
+  backdrop-filter: blur(6px);
+  border-radius: 10px;
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  display: none;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  z-index: 999;
+}
+#suggestions li {
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: #000;
+}
+#suggestions li:hover {
+  background: #eeeeee;
+}
+
+/* ----------------------- */
+/*       WEATHER BOX       */
+/* ----------------------- */
+.weather-box {
+  margin-top: 2rem;
+  transition: 0.5s ease;
+  transform: translateY(15px);
+}
+
+.weather-box.show {
+  transform: translateY(0);
+}
+
+.weather-box img {
+  width: 140px;
+  filter: drop-shadow(0 0 10px #000);
+}
+
+.temp {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.description {
+  font-size: 1.3rem;
+  opacity: 0.85;
+  text-transform: capitalize;
+}
+
+/* ----------------------- */
+/*         DETAILS         */
+/* ----------------------- */
+.details {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  opacity: 0;
+  transition: 0.4s ease;
+  transform: translateY(15px);
+}
+
+.details.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.detail {
+  background: #ffffff15;
+  border-radius: 14px;
+  padding: 1rem;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 10px #00000050;
+}
+.detail span {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+.detail strong {
+  display: block;
+  font-size: 1.4rem;
+  margin-top: 0.4rem;
+}
+
+/* Hidden initial state */
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}

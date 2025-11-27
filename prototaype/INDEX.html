@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Météo </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Layers -->
+  <div class="background">
+    <div class="parallax layer-1"></div>
+    <div class="parallax layer-2"></div>
+    <div class="light-rays"></div>
+    <div class="rain"></div>
+  </div>
+
+  <div class="container">
+
+    <h1 class="title">🌤️ Weather PRO</h1>
+
+    <!-- Search -->
+   <div class="search">
+  <input type="text" id="cityInput" placeholder="Tapez une ville..." autocomplete="off">
+  <ul id="suggestions"></ul>
+      <button>Rechercher</button>
+    </div>
+    
+
+    <!-- Weather Box -->
+    <div class="weather-box hidden">
+      <img src="" class="icon" />
+      <p class="temp"></p>
+      <p class="description"></p>
+    </div>
+
+    <!-- Details -->
+    <div class="details hidden">
+      <div class="detail">
+        <span>Humidité :</span><strong class="humi"></strong>
+      </div>
+      <div class="detail">
+        <span>Vent :</span><strong class="wind"></strong>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
